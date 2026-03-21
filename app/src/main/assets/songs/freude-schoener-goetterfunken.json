@@ -1,0 +1,25 @@
+{
+  "title": "Freude schöner Götterfunken",
+  "artist": "L. v. Beethoven",
+  "difficulty": 2,
+  "bpm": 90,
+  "timeSignature": "4/4",
+  "level": 2,
+  "notes": [
+    {"pitch": "E4", "duration": 1.0, "beat": 0, "hand": "R"},
+    {"pitch": "E4", "duration": 1.0, "beat": 1, "hand": "R"},
+    {"pitch": "F4", "duration": 1.0, "beat": 2, "hand": "R"},
+    {"pitch": "G4", "duration": 1.0, "beat": 3, "hand": "R"},
+    {"pitch": "G4", "duration": 1.0, "beat": 4, "hand": "R"},
+    {"pitch": "F4", "duration": 1.0, "beat": 5, "hand": "R"},
+    {"pitch": "E4", "duration": 1.0, "beat": 6, "hand": "R"},
+    {"pitch": "D4", "duration": 1.0, "beat": 7, "hand": "R"},
+    {"pitch": "C4", "duration": 1.0, "beat": 8, "hand": "R"},
+    {"pitch": "C4", "duration": 1.0, "beat": 9, "hand": "R"},
+    {"pitch": "D4", "duration": 1.0, "beat": 10, "hand": "R"},
+    {"pitch": "E4", "duration": 1.0, "beat": 11, "hand": "R"},
+    {"pitch": "E4", "duration": 1.5, "beat": 12, "hand": "R"},
+    {"pitch": "D4", "duration": 0.5, "beat": 13.5, "hand": "R"},
+    {"pitch": "D4", "duration": 2.0, "beat": 14, "hand": "R"}
+  ]
+}
