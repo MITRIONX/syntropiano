@@ -68,7 +68,11 @@ Der Hauptbildschirm beim Üben zeigt:
 
 - **Übemodus** — Wartet auf jede Note. Kein Zeitdruck. Perfekt zum Lernen neuer Stücke.
 - **Rhythmus-Modus** — Noten scrollen im eingestellten Tempo. Timing zählt. BPM einstellbar.
-- **Auftritt** — Ganzes Stück durchspielen. Bewertung am Ende mit 1-3 Sternen.
+- **Auftritt** — Ganzes Stück durchspielen. Bewertung am Ende mit 1-3 Sternen (1 Stern: ≥60% Genauigkeit, 2 Sterne: ≥80%, 3 Sterne: ≥95%).
+
+### Level-Test Bestehen
+
+Level-Tests erfordern mindestens 70% Genauigkeit zum Bestehen. Bei Nichtbestehen kann der Test beliebig oft wiederholt werden.
 
 ## Gamification
 
@@ -83,7 +87,9 @@ Der Hauptbildschirm beim Üben zeigt:
 | Perfekte Genauigkeit (100%) | +50 Bonus |
 | 7-Tage Streak erreicht | +150 Bonus |
 
-### Ränge (Level-basiert)
+### XP-Kurve & Ränge
+
+XP pro Level: `Level × 300 XP` (Level 1 = 300 XP, Level 2 = 600 XP, Level 10 = 3.000 XP). Steigende Anforderung hält die Motivation aufrecht.
 
 - Lv 1-5: Anfänger
 - Lv 6-10: Klavier-Lehrling
@@ -174,7 +180,7 @@ Der Hauptbildschirm beim Üben zeigt:
 }
 ```
 
-Lieder werden als JSON in `assets/songs/` gebündelt oder per Android File Picker importiert.
+Lieder werden als JSON in `assets/songs/` gebündelt oder per Android File Picker importiert. Importierte Dateien werden validiert (Pflichtfelder: title, notes mit pitch/duration/beat; Pitch-Range: A0-C8). Ungültige Dateien werden mit Fehlermeldung abgelehnt.
 
 ### Projektstruktur
 
