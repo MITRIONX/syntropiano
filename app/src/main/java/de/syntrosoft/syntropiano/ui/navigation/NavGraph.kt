@@ -8,6 +8,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
 import de.syntrosoft.syntropiano.ui.screens.home.HomeScreen
 import de.syntrosoft.syntropiano.ui.screens.learn.LearnScreen
+import de.syntrosoft.syntropiano.ui.screens.learn.LessonScreen
 import de.syntrosoft.syntropiano.ui.screens.play.PlayScreen
 import de.syntrosoft.syntropiano.ui.screens.play.SongListScreen
 import de.syntrosoft.syntropiano.ui.screens.profile.ProfileScreen
@@ -27,7 +28,22 @@ fun NavGraph(navController: NavHostController) {
             LearnScreen(
                 onBack = { navController.popBackStack() },
                 onLevelSelected = { level ->
-                    // Navigate to first lesson of this level — will be wired in Task 15
+                    navController.navigate(Screen.Lesson.createRoute(level, 1))
+                },
+            )
+        }
+
+        composable(
+            Screen.Lesson.route,
+            arguments = listOf(
+                navArgument("lessonLevel") { type = NavType.IntType },
+                navArgument("lessonOrder") { type = NavType.IntType },
+            ),
+        ) {
+            LessonScreen(
+                onBack = { navController.popBackStack() },
+                onPlaySong = { songId, mode ->
+                    navController.navigate(Screen.Play.createRoute(songId, mode))
                 },
             )
         }
