@@ -12,7 +12,14 @@ local.properties
 .vscode/
 
 # Android
+app/build/
 app/release/
+*.apk
+*.aab
+captures/
+
+# Superpowers
+.superpowers/
 
 # OS
 .DS_Store
