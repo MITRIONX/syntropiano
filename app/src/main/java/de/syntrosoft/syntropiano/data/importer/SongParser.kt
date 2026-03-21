@@ -1,4 +1,4 @@
-package de.syntrosoft.syntropiano.data.`import`
+package de.syntrosoft.syntropiano.data.importer
 
 import de.syntrosoft.syntropiano.domain.model.Note
 import de.syntrosoft.syntropiano.domain.model.Pitch
