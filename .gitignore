@@ -1,0 +1,19 @@
+# Gradle
+.gradle/
+build/
+*.class
+
+# Local configuration
+local.properties
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+
+# Android
+app/release/
+
+# OS
+.DS_Store
+Thumbs.db
