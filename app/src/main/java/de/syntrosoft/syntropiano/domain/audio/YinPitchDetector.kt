@@ -2,6 +2,7 @@ package de.syntrosoft.syntropiano.domain.audio
 
 import de.syntrosoft.syntropiano.domain.model.Pitch
 import kotlin.math.abs
+import kotlin.math.sqrt
 
 /**
  * YIN pitch detection algorithm.
@@ -9,10 +10,18 @@ import kotlin.math.abs
  */
 class YinPitchDetector(
     private val threshold: Float = 0.15f,
+    private val rmsThreshold: Float = 0.04f, // Minimum volume to consider (filters background noise / speech)
 ) : PitchDetector {
 
     override fun detect(audioBuffer: ShortArray, sampleRate: Int): Pitch? {
         val floatBuffer = FloatArray(audioBuffer.size) { audioBuffer[it].toFloat() / Short.MAX_VALUE }
+
+        // RMS amplitude check – reject quiet signals (noise, distant speech)
+        var sumSquares = 0f
+        for (sample in floatBuffer) sumSquares += sample * sample
+        val rms = sqrt(sumSquares / floatBuffer.size)
+        if (rms < rmsThreshold) return null
+
         val halfSize = floatBuffer.size / 2
 
         // Step 1 & 2: Difference function

@@ -1,0 +1,880 @@
+{
+  "title": "Happy Birthday",
+  "artist": "Traditional",
+  "difficulty": 1,
+  "bpm": 120,
+  "timeSignature": "3/4",
+  "level": 1,
+  "notes": [
+    {
+      "pitch": "G4",
+      "beat": 0.0,
+      "duration": 0.71,
+      "hand": "R"
+    },
+    {
+      "pitch": "G4",
+      "beat": 0.75,
+      "duration": 0.24,
+      "hand": "R"
+    },
+    {
+      "pitch": "A4",
+      "beat": 1.0,
+      "duration": 0.95,
+      "hand": "R"
+    },
+    {
+      "pitch": "C3",
+      "beat": 1.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "G4",
+      "beat": 2.0,
+      "duration": 0.95,
+      "hand": "R"
+    },
+    {
+      "pitch": "E4",
+      "beat": 2.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "C4",
+      "beat": 2.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "C5",
+      "beat": 3.0,
+      "duration": 0.95,
+      "hand": "R"
+    },
+    {
+      "pitch": "E4",
+      "beat": 3.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "C4",
+      "beat": 3.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "B4",
+      "beat": 4.0,
+      "duration": 1.9,
+      "hand": "R"
+    },
+    {
+      "pitch": "D3",
+      "beat": 4.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "F4",
+      "beat": 5.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "G3",
+      "beat": 5.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "G4",
+      "beat": 6.0,
+      "duration": 0.71,
+      "hand": "R"
+    },
+    {
+      "pitch": "F4",
+      "beat": 6.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "G3",
+      "beat": 6.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "G4",
+      "beat": 6.75,
+      "duration": 0.24,
+      "hand": "R"
+    },
+    {
+      "pitch": "A4",
+      "beat": 7.0,
+      "duration": 0.95,
+      "hand": "R"
+    },
+    {
+      "pitch": "G3",
+      "beat": 7.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "G4",
+      "beat": 8.0,
+      "duration": 0.95,
+      "hand": "R"
+    },
+    {
+      "pitch": "F4",
+      "beat": 8.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "D4",
+      "beat": 8.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "D5",
+      "beat": 9.0,
+      "duration": 0.95,
+      "hand": "R"
+    },
+    {
+      "pitch": "F4",
+      "beat": 9.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "D4",
+      "beat": 9.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "C5",
+      "beat": 10.0,
+      "duration": 1.9,
+      "hand": "R"
+    },
+    {
+      "pitch": "C4",
+      "beat": 10.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "C3",
+      "beat": 10.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "E4",
+      "beat": 11.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "C4",
+      "beat": 11.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "G4",
+      "beat": 12.0,
+      "duration": 0.71,
+      "hand": "R"
+    },
+    {
+      "pitch": "E4",
+      "beat": 12.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "C4",
+      "beat": 12.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "G4",
+      "beat": 12.75,
+      "duration": 0.24,
+      "hand": "R"
+    },
+    {
+      "pitch": "G5",
+      "beat": 13.0,
+      "duration": 0.95,
+      "hand": "R"
+    },
+    {
+      "pitch": "E3",
+      "beat": 13.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "E5",
+      "beat": 14.0,
+      "duration": 0.95,
+      "hand": "R"
+    },
+    {
+      "pitch": "C4",
+      "beat": 14.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "G3",
+      "beat": 14.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "C5",
+      "beat": 15.0,
+      "duration": 0.71,
+      "hand": "R"
+    },
+    {
+      "pitch": "C4",
+      "beat": 15.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "G3",
+      "beat": 15.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "C5",
+      "beat": 15.75,
+      "duration": 0.24,
+      "hand": "R"
+    },
+    {
+      "pitch": "B4",
+      "beat": 16.0,
+      "duration": 0.95,
+      "hand": "R"
+    },
+    {
+      "pitch": "F3",
+      "beat": 16.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "A4",
+      "beat": 17.0,
+      "duration": 0.95,
+      "hand": "R"
+    },
+    {
+      "pitch": "F4",
+      "beat": 17.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "C4",
+      "beat": 17.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "F5",
+      "beat": 18.0,
+      "duration": 0.71,
+      "hand": "R"
+    },
+    {
+      "pitch": "F4",
+      "beat": 18.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "C4",
+      "beat": 18.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "F5",
+      "beat": 18.75,
+      "duration": 0.24,
+      "hand": "R"
+    },
+    {
+      "pitch": "E5",
+      "beat": 19.0,
+      "duration": 0.95,
+      "hand": "R"
+    },
+    {
+      "pitch": "G3",
+      "beat": 19.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "C5",
+      "beat": 20.0,
+      "duration": 0.95,
+      "hand": "R"
+    },
+    {
+      "pitch": "E4",
+      "beat": 20.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "C4",
+      "beat": 20.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "D5",
+      "beat": 21.0,
+      "duration": 0.95,
+      "hand": "R"
+    },
+    {
+      "pitch": "F4",
+      "beat": 21.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "B3",
+      "beat": 21.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "C5",
+      "beat": 22.0,
+      "duration": 1.9,
+      "hand": "R"
+    },
+    {
+      "pitch": "E4",
+      "beat": 22.0,
+      "duration": 1.9,
+      "hand": "L"
+    },
+    {
+      "pitch": "C4",
+      "beat": 22.0,
+      "duration": 1.9,
+      "hand": "L"
+    },
+    {
+      "pitch": "G4",
+      "beat": 24.0,
+      "duration": 0.71,
+      "hand": "R"
+    },
+    {
+      "pitch": "G#4",
+      "beat": 24.75,
+      "duration": 0.24,
+      "hand": "R"
+    },
+    {
+      "pitch": "A4",
+      "beat": 25.0,
+      "duration": 0.95,
+      "hand": "R"
+    },
+    {
+      "pitch": "C3",
+      "beat": 25.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "G4",
+      "beat": 26.0,
+      "duration": 0.95,
+      "hand": "R"
+    },
+    {
+      "pitch": "E4",
+      "beat": 26.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "C4",
+      "beat": 26.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "C5",
+      "beat": 27.0,
+      "duration": 0.95,
+      "hand": "R"
+    },
+    {
+      "pitch": "E4",
+      "beat": 27.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "C4",
+      "beat": 27.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "B4",
+      "beat": 28.0,
+      "duration": 1.9,
+      "hand": "R"
+    },
+    {
+      "pitch": "D3",
+      "beat": 28.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "F4",
+      "beat": 29.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "G3",
+      "beat": 29.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "G4",
+      "beat": 30.0,
+      "duration": 0.71,
+      "hand": "R"
+    },
+    {
+      "pitch": "F4",
+      "beat": 30.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "G3",
+      "beat": 30.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "G#4",
+      "beat": 30.75,
+      "duration": 0.24,
+      "hand": "R"
+    },
+    {
+      "pitch": "A4",
+      "beat": 31.0,
+      "duration": 0.95,
+      "hand": "R"
+    },
+    {
+      "pitch": "G3",
+      "beat": 31.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "G4",
+      "beat": 32.0,
+      "duration": 0.95,
+      "hand": "R"
+    },
+    {
+      "pitch": "F4",
+      "beat": 32.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "D4",
+      "beat": 32.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "D5",
+      "beat": 33.0,
+      "duration": 0.95,
+      "hand": "R"
+    },
+    {
+      "pitch": "F4",
+      "beat": 33.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "D4",
+      "beat": 33.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "C5",
+      "beat": 34.0,
+      "duration": 1.9,
+      "hand": "R"
+    },
+    {
+      "pitch": "C4",
+      "beat": 34.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "C3",
+      "beat": 34.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "E4",
+      "beat": 35.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "C4",
+      "beat": 35.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "G4",
+      "beat": 36.0,
+      "duration": 0.71,
+      "hand": "R"
+    },
+    {
+      "pitch": "E4",
+      "beat": 36.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "C4",
+      "beat": 36.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "G4",
+      "beat": 36.75,
+      "duration": 0.24,
+      "hand": "R"
+    },
+    {
+      "pitch": "G5",
+      "beat": 37.0,
+      "duration": 0.95,
+      "hand": "R"
+    },
+    {
+      "pitch": "E3",
+      "beat": 37.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "E5",
+      "beat": 38.0,
+      "duration": 0.95,
+      "hand": "R"
+    },
+    {
+      "pitch": "C4",
+      "beat": 38.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "G3",
+      "beat": 38.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "C5",
+      "beat": 39.0,
+      "duration": 0.71,
+      "hand": "R"
+    },
+    {
+      "pitch": "C4",
+      "beat": 39.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "G3",
+      "beat": 39.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "C5",
+      "beat": 39.75,
+      "duration": 0.24,
+      "hand": "R"
+    },
+    {
+      "pitch": "B4",
+      "beat": 40.0,
+      "duration": 0.95,
+      "hand": "R"
+    },
+    {
+      "pitch": "F3",
+      "beat": 40.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "A4",
+      "beat": 41.0,
+      "duration": 0.95,
+      "hand": "R"
+    },
+    {
+      "pitch": "F4",
+      "beat": 41.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "C4",
+      "beat": 41.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "F5",
+      "beat": 42.0,
+      "duration": 0.71,
+      "hand": "R"
+    },
+    {
+      "pitch": "F4",
+      "beat": 42.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "C4",
+      "beat": 42.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "F5",
+      "beat": 42.75,
+      "duration": 0.24,
+      "hand": "R"
+    },
+    {
+      "pitch": "E5",
+      "beat": 43.0,
+      "duration": 0.95,
+      "hand": "R"
+    },
+    {
+      "pitch": "G3",
+      "beat": 43.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "C5",
+      "beat": 44.0,
+      "duration": 0.95,
+      "hand": "R"
+    },
+    {
+      "pitch": "E4",
+      "beat": 44.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "C4",
+      "beat": 44.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "D5",
+      "beat": 45.0,
+      "duration": 0.95,
+      "hand": "R"
+    },
+    {
+      "pitch": "F4",
+      "beat": 45.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "B3",
+      "beat": 45.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "C5",
+      "beat": 46.0,
+      "duration": 1.9,
+      "hand": "R"
+    },
+    {
+      "pitch": "E4",
+      "beat": 46.0,
+      "duration": 1.9,
+      "hand": "L"
+    },
+    {
+      "pitch": "C4",
+      "beat": 46.0,
+      "duration": 1.9,
+      "hand": "L"
+    },
+    {
+      "pitch": "G5",
+      "beat": 49.0,
+      "duration": 0.95,
+      "hand": "R"
+    },
+    {
+      "pitch": "G4",
+      "beat": 49.0,
+      "duration": 0.95,
+      "hand": "R"
+    },
+    {
+      "pitch": "G3",
+      "beat": 49.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "A5",
+      "beat": 50.0,
+      "duration": 0.95,
+      "hand": "R"
+    },
+    {
+      "pitch": "A4",
+      "beat": 50.0,
+      "duration": 0.95,
+      "hand": "R"
+    },
+    {
+      "pitch": "F#3",
+      "beat": 50.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "G5",
+      "beat": 51.0,
+      "duration": 0.95,
+      "hand": "R"
+    },
+    {
+      "pitch": "G4",
+      "beat": 51.0,
+      "duration": 0.95,
+      "hand": "R"
+    },
+    {
+      "pitch": "G3",
+      "beat": 51.0,
+      "duration": 0.95,
+      "hand": "L"
+    },
+    {
+      "pitch": "C5",
+      "beat": 52.0,
+      "duration": 4.9,
+      "hand": "R"
+    },
+    {
+      "pitch": "C3",
+      "beat": 52.0,
+      "duration": 4.9,
+      "hand": "L"
+    },
+    {
+      "pitch": "E5",
+      "beat": 52.08,
+      "duration": 4.82,
+      "hand": "R"
+    },
+    {
+      "pitch": "E3",
+      "beat": 52.08,
+      "duration": 4.82,
+      "hand": "L"
+    },
+    {
+      "pitch": "G5",
+      "beat": 52.16,
+      "duration": 4.74,
+      "hand": "R"
+    },
+    {
+      "pitch": "G3",
+      "beat": 52.16,
+      "duration": 4.74,
+      "hand": "L"
+    },
+    {
+      "pitch": "A#5",
+      "beat": 52.24,
+      "duration": 4.66,
+      "hand": "R"
+    },
+    {
+      "pitch": "A#3",
+      "beat": 52.24,
+      "duration": 4.66,
+      "hand": "L"
+    }
+  ]
+}

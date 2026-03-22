@@ -13,6 +13,7 @@ data class SongEntity(
     val timeSignature: String = "4/4",
     val level: Int = 1,
     val notesJson: String,    // Serialized List<Note> as JSON
+    val audioFile: String? = null,
     val isBuiltIn: Boolean = true,
     val importedAt: Long? = null,
 )

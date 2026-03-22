@@ -15,6 +15,7 @@ private data class SongJson(
     val timeSignature: String = "4/4",
     val level: Int = 1,
     val notes: List<Note>? = null,
+    val audioFile: String? = null,
 )
 
 class SongParser {
@@ -41,6 +42,7 @@ class SongParser {
             timeSignature = raw.timeSignature,
             level = raw.level,
             notes = raw.notes,
+            audioFile = raw.audioFile,
             isBuiltIn = false,
             importedAt = System.currentTimeMillis(),
         )

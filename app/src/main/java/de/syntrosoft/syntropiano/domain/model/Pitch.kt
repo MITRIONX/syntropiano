@@ -1,6 +1,10 @@
 package de.syntrosoft.syntropiano.domain.model
 
 enum class Pitch(val frequency: Float, val displayName: String) {
+    // Octave 1
+    C1(32.70f, "C1"), Cs1(34.65f, "C#1"), D1(36.71f, "D1"), Ds1(38.89f, "D#1"),
+    E1(41.20f, "E1"), F1(43.65f, "F1"), Fs1(46.25f, "F#1"), G1(49.00f, "G1"),
+    Gs1(51.91f, "G#1"), A1(55.00f, "A1"), As1(58.27f, "A#1"), B1(61.74f, "B1"),
     // Octave 2
     C2(65.41f, "C2"), Cs2(69.30f, "C#2"), D2(73.42f, "D2"), Ds2(77.78f, "D#2"),
     E2(82.41f, "E2"), F2(87.31f, "F2"), Fs2(92.50f, "F#2"), G2(98.00f, "G2"),

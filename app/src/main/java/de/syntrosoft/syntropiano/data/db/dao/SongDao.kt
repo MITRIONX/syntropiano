@@ -26,4 +26,7 @@ interface SongDao {
 
     @Query("SELECT COUNT(*) FROM songs")
     suspend fun count(): Int
+
+    @Query("DELETE FROM songs WHERE isBuiltIn = 1")
+    suspend fun deleteBuiltIn()
 }

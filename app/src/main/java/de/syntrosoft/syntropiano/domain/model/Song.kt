@@ -9,6 +9,7 @@ data class Song(
     val timeSignature: String = "4/4",
     val level: Int = 1,
     val notes: List<Note>,
+    val audioFile: String? = null,
     val isBuiltIn: Boolean = true,
     val importedAt: Long? = null,
 )

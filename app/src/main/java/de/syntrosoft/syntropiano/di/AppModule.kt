@@ -12,6 +12,7 @@ import de.syntrosoft.syntropiano.data.db.dao.*
 import de.syntrosoft.syntropiano.data.importer.SongParser
 import de.syntrosoft.syntropiano.domain.audio.NoteMatcher
 import de.syntrosoft.syntropiano.domain.audio.PitchDetector
+import de.syntrosoft.syntropiano.domain.audio.SongPlayer
 import de.syntrosoft.syntropiano.domain.audio.YinPitchDetector
 import de.syntrosoft.syntropiano.domain.engine.AchievementEngine
 import de.syntrosoft.syntropiano.domain.engine.ScoreCalculator
@@ -40,6 +41,7 @@ object AppModule {
     @Provides @Singleton fun provideAchievementEngine(): AchievementEngine = AchievementEngine()
     @Provides @Singleton fun provideNoteMatcher(): NoteMatcher = NoteMatcher()
     @Provides @Singleton fun providePitchDetector(): PitchDetector = YinPitchDetector()
+    @Provides @Singleton fun provideSongPlayer(@ApplicationContext context: Context): SongPlayer = SongPlayer(context)
 
     @Provides
     @Singleton

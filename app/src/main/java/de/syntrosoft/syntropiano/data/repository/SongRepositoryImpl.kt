@@ -35,7 +35,9 @@ class SongRepositoryImpl @Inject constructor(
     }
 
     override suspend fun seedBuiltInSongs() {
-        if (songDao.count() > 0) return
+        // Alte Built-in Songs entfernen und neu einfügen
+        songDao.deleteBuiltIn()
+
         val assetFiles = context.assets.list("songs") ?: return
         val songs = assetFiles.mapNotNull { filename ->
             val jsonString = context.assets.open("songs/$filename").bufferedReader().readText()
@@ -48,6 +50,7 @@ class SongRepositoryImpl @Inject constructor(
         id = id, title = title, artist = artist, difficulty = difficulty,
         bpm = bpm, timeSignature = timeSignature, level = level,
         notes = json.decodeFromString(notesJson),
+        audioFile = audioFile,
         isBuiltIn = isBuiltIn, importedAt = importedAt,
     )
 
@@ -55,6 +58,7 @@ class SongRepositoryImpl @Inject constructor(
         id = id, title = title, artist = artist, difficulty = difficulty,
         bpm = bpm, timeSignature = timeSignature, level = level,
         notesJson = json.encodeToString(notes),
+        audioFile = audioFile,
         isBuiltIn = isBuiltIn, importedAt = importedAt,
     )
 }
